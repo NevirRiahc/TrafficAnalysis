@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 42px !important;
+  }
+}
+@media screen and (min-width: 1920) {
+  html {
+    font-size: 80px !important;
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style: none;
+  }
+  @font-face {
+    font-family: electronicFont;
+    src: url(../font/DS-DIGIT.TTF);
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg.jpg) no-repeat #000;
+    background-size: cover;
+    line-height: 1.15;
+  }

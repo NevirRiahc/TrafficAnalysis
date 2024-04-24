@@ -10,7 +10,6 @@
         <module name="R-Game_server" />
         <module name="modelx" />
         <module name="movie_II_server" />
-        <module name="traffic_server" />
       </profile>
     </annotationProcessing>
   </component>

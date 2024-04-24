@@ -64,7 +64,7 @@ export default {
                 ],
                 series: [
                     {
-                        name:'流量',
+                        name:'flux',//流量
                         data:  [24, 40, 101, 134, 90, 230, 210, 230, 120, 230, 210, 120],
                         type: 'line',
                         smooth: true

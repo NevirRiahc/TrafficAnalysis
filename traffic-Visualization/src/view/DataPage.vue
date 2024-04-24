@@ -117,8 +117,8 @@ export default {
             var h = dt.getHours();
             var m = dt.getMinutes();
             var s = dt.getSeconds();
-            this.date = `${year}年${month}月${date}日-${h}时${m}分${s}秒`
-        },
+            this.date = `${year}/${month}/${date}/-${h}:${m}:${s}`
+        },<!--年月日 时分秒-->
         changeData(year) {
             if (year == '2019') {
                 this.yData = [200, 300, 300, 900, 1500, 1200, 600]

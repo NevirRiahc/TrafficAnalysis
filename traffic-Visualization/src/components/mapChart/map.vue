@@ -87,25 +87,25 @@ export default {
               pieces: [
                 {
                   gt: 3,
-                  label: '非常拥堵',
+                  label: 'Very congested',//非常拥堵
                   color: '#DD2C00',
                 },
                 {
                   gte: 2,
                   lte: 3,
-                  label: '较为拥堵',
+                  label: 'More congested',//较为拥堵
                   color: 'rgba(255,193,7,0.86)',
                 },
                 {
                   gte: 1,
                   lt: 2,
-                  label: '一般',
+                  label: 'Fair',//一般
                   color: '#f6fd35',
                 },
                 {
                   gt: 0,
                   lt: 1,
-                  label: '畅通',
+                  label: 'Clear',//畅通
                   color: 'rgba(44,255,2,0.7)'
                 },
               ],

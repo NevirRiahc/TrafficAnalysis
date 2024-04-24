@@ -36,8 +36,8 @@
                     </div>
                     <div class="no-bd">
                         <ul>
-                            <li>道路数</li>
-                            <li>路况数据</li>
+                            <li>Number of roads</li><！--道路数-->
+                            <li>Road data</li><!--路况数据-->
                         </ul>
                     </div>
                 </div>

@@ -8,7 +8,7 @@
             <div class="column">
                 <div class="panel">
                     <h2>
-                        CARS Top10
+                       Top Ten Congested Roads Identification <!-- CARS Top10-->
 <!--                        <span @click="changeData('2019')">2019</span>-->
 <!--                        <span @click="changeData('2020')">2020</span>-->
                     </h2>
@@ -16,12 +16,12 @@
                     <div class="panel-footer"></div>
                 </div>
                 <div class="panel">
-                    <h2>CARS OF ONE TIME</h2>
+                    <h2>Traffic Volume Trends Over Time</h2><!-- CARS OF ONE TIME-->
                     <Line1 class="chart"></Line1>
                     <div class="panel-footer"></div>
                 </div>
                 <div class="panel">
-                    <h2>CARS SUM</h2>
+                    <h2>District-wise Congestion Analysis</h2><!--CARS SUM-->
                     <Pie1 class="chart"></Pie1>
                     <div class="panel-footer"></div>
                 </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="column">
                 <div class="panel">
-                    <h2>AVG SPEED【TOP 5】</h2>
+                    <h2>Average Road Speed Analysis</h2><!--AVG SPEED【TOP 5】-->
                     <Bar2 class="chart"></Bar2>
                     <div class="panel-footer"></div>
                 </div>
